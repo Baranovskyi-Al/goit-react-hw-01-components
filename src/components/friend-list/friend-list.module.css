@@ -1,0 +1,43 @@
+.list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+.statusOnline,
+.statusOffline {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+
+.statusOnline {
+  background-color: green;
+}
+
+.statusOffline {
+  background-color: red;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 10px;
+  background-color: aqua;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.statistic {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  background-color: aquamarine;
+}
+
+.statlist {
+  display: flex;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+  font-weight: 500;
+}
+
+.label {
+  margin-bottom: 5px;
+}
